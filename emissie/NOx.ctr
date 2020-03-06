@@ -1,0 +1,48 @@
+*-----------------------directory layer---------------------------------*
+DATADIR        C:\Applics\OPS-Pro_2018\Data\
+*-----------------------identification layer----------------------------*
+PROJECT        Lelystad_RIVM_dataset_NOx
+RUNID          Lelystad_RIVM_dataset_NOx
+YEAR           2017
+*-----------------------substance layer---------------------------------*
+COMPCODE       2
+COMPNAME       NOx (nitrogen oxides) - gas.
+MOLWEIGHT      46.0
+PHASE          1
+LOSS           1
+DDSPECTYPE     
+DDPARVALUE     
+WDSPECTYPE     
+WDPARVALUE     
+DIFFCOEFF      .0
+WASHOUT        0
+CONVRATE       
+LDCONVRATE     
+*-----------------------emission layer----------------------------------*
+EMFILE         d:\projects\mesdag2.0\calc\lelystad\emissie\emissie_rivm_2017.brn
+USDVEFILE      
+USPSDFILE      
+EMCORFAC       1.0
+TARGETGROUP    0
+COUNTRY        0
+*-----------------------receptor layer----------------------------------*
+RECEPTYPE      2
+XCENTER        
+YCENTER        
+NCOLS          
+NROWS          
+RESO           
+OUTER          
+RCPFILE        d:\projects\mesdag2.0\depositiepunten_arius\depopoints.rcp
+*-----------------------meteo & surface char layer----------------------*
+ROUGHNESS      0.0
+Z0FILE         c:\Applics\OPS-Pro_2018\Data\z0_jr_1000_lgn7.ops
+LUFILE         c:\Applics\OPS-Pro_2018\Data\lu_1000_lgn7.ops
+METEOTYPE      0
+MTFILE         c:\Applics\OPS-Pro_2018\Meteo\a018118c.*
+*-----------------------output layer------------------------------------*
+DEPUNIT        3
+PLTFILE        d:\projects\mesdag2.0\calc\lelystad\depositie\NOx_Deposition.tab
+PRNFILE        d:\projects\mesdag2.0\calc\lelystad\depositie\NOx_Deposition.lpt
+INCLUDE        0
+GUIMADE        1
